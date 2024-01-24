@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+    <h1>Sultan Ahmed</h1>
+    <h2>Digital watch JavaScript & CSS Timing.
+    </h2>
+
+<div id="clock">  
+    
+  <p id="demo"></p>
+
+    <button onclick="clearInterval(myVar)">Stop time</button>
+  
+  </div>
+  
+  <p id="demo1"></p>
+
+    <script>
+
+          setInterval(myTimer, 1000);
+      
+      function myTimer() {
+        const d = new Date();
+        document.getElementById("demo1").innerHTML = d.toLocaleTimeString();
+      }
+      </script>
+      
+      <img src="1.png" alt="P" style="width: 100px;">
+
+    </body>
+    </html>
+    
+    <script src="myScript.js"></script>
+
+  </body>
+  </html>
